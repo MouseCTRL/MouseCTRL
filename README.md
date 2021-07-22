@@ -7,3 +7,9 @@ Main uses of our app:
 -	Online teaching purposes: Our app can easily facilitate writing on virtual whiteboard apps such as microsoft paint or onenote.
 -	Gaming Purposes: Our app can be used for gaming purposes, especially in games which require a change in direction or virtual movement.
 -	Day to day usage: Finally, our app can be used for day-to-day purposes which require a device. It can replace the normal mouse require for such tasks.
+
+To download our app:
+- Download the setup file from the following link:
+"""python
+https://www.dropbox.com/s/k54zl4hqyeb703w/MouseCTRL-Setup.exe?dl=0
+"""

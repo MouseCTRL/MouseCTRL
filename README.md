@@ -1,4 +1,4 @@
-### MouseCTRL: Mouse control. Simplified.
+# MouseCTRL: Mouse control. Simplified.
 Our app eases the navigation of the mouse involved in tasks such as writing something using a touchpad or playing games. We have come up with an efficient and easier alternative for the traditional touchpad or a mouse. The navigation is facilitated by hand gestures which are in turn recognized by a camera. It then gives an input to the machine to move the mouse to the place corresponding to the position of the hand of the user. This process is automated and quite fast. We have used Artificial Intelligence to recognize the hand of the user which then earmarks specific points on their hand. This is followed by the tracking of the position of those points by the AI mechanism. This finally leads to the movement of the mouse.
 
 

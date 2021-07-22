@@ -1,7 +1,7 @@
 # MouseCTRL: Mouse control. Simplified.
 Our app eases the navigation of the mouse involved in tasks such as writing something using a touchpad or playing games. We have come up with an efficient and easier alternative for the traditional touchpad or a mouse. The navigation is facilitated by hand gestures which are in turn recognized by a camera. It then gives an input to the machine to move the mouse to the place corresponding to the position of the hand of the user. This process is automated and quite fast. We have used Artificial Intelligence to recognize the hand of the user which then earmarks specific points on their hand. This is followed by the tracking of the position of those points by the AI mechanism. This finally leads to the movement of the mouse.
 
-![alt tag](https://previews.dropbox.com/p/thumb/ABN_KoFXu7CqGf427CSHfX0iN731ZZWBjcuEqUD6OYFWI5Vg1knEoDUQeBu58is8LUDN5iMIppeL5Dqu0kDDa_iNt23VnZliAZ5bWVlFUxy4qZs0G2QsLuyDg_cYIfkUa-Zq7VZvP-pRsQX846YO2n6tSCmn1aoeVgJ4NtsFNW-DBKUabO8F1fm15Nm9KwtcdtPzpAVDTRFO9ZIEVYEjkP-OsVUsIsrJUstThKVoOMyZIDoqndUGLK4ZbzJGwhS11kk6mMZm63rjaZx0-UZYOA-jFE3f2IrFMB2J0sUd3AWsPAP1hDGvZok9ZaRe6Ey17lPWPQFox_xGsNcUlSQdgp19aasjUnNogErzfbVPm7ee8A/p.png?fv_content=true&size_mode=5)
+![Hand Recognition](https://www.dropbox.com/s/cpxkcveg3v46of2/image_2021-07-22_235832.png?dl=0)
 
 For smooth movement of the mouse we consider the movement of the point 8 and 12 together. The movement of point 8 is considered for a left-click event while the movement of point 12 is considered for a right-click event. Point 16 is used in an event featuring continuous right-click with a left click. Point 20 is used for continous left-click with a right-click event. Finally, point 4 is used for a middle click event.
 Main uses of our app: 

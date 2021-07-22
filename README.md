@@ -3,7 +3,7 @@ Our app eases the navigation of the mouse involved in tasks such as writing some
 
 ![Hand Recognition](https://raw.githubusercontent.com/MouseCTRL/MouseCTRL/main/images/Hand-Recognition.png)
 
-For smooth movement of the mouse we consider the movement of the point 8 and 12 together. The movement of point 8 is considered for a left-click event while the movement of point 12 is considered for a right-click event. Point 16 is used in an event featuring continuous right-click with a left click. Point 20 is used for continous left-click with a right-click event. Finally, point 4 is used for a middle click event.
+For smooth movement of the mouse we consider the movement of the point 8 and 12 together. The movement of point 8 is considered for a left-click event while the movement of point 12 is considered for a right-click event. Point 16 is used in an event featuring continuous right-click with a left click. Finally, Point 20 is used for a middle click event.
 Main uses of our app: 
 -	Online teaching purposes: Our app can easily facilitate writing on virtual whiteboard apps such as microsoft paint or onenote.
 -	Gaming Purposes: Our app can be used for gaming purposes, especially in games which require a change in direction or virtual movement.

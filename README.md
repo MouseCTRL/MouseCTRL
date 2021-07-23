@@ -12,7 +12,7 @@ Main uses of our app:
 To download our app:
 - Download the setup file from the following link:
 ```bash
-https://www.dropbox.com/s/2ba1auknt9xei7e/MouseCTRL-Setup.exe?dl=0
+https://www.dropbox.com/s/rvw1yrzdy4tsgg0/MouseCTRL-Setup.exe?dl=0
 ```
 - Then, run the File: `MouseCTRL-Setup.exe` from the Downloads folder
 - Choose the app installation location and click Next

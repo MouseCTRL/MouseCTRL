@@ -18,6 +18,10 @@ https://www.dropbox.com/s/rvw1yrzdy4tsgg0/MouseCTRL-Setup.exe?dl=0
 - Choose the app installation location and click Next
 - The Installer will download the App, and the required dependencies to run the App
 - After the installation finishes, click close and Search for `MouseCTRL` in the Search Bar and Run the `MouseCTRL.exe`
+- For Help on how to use our app, go to:
+```bash
+https://mousectrl.herokuapp.com
+```
 
 ## Note
 Before running the code, 

@@ -293,8 +293,7 @@ __________________________________
         self.newBtn = wx.Button(panel, wx.ID_ANY, 'Start MouseCTRL', size=(150, 30))
         self.newBtn1 = wx.Button(panel, wx.ID_ANY, 'Kill MouseCTRL process', size=(150, 30))
         self.newBtn2 = wx.Button(panel, wx.ID_ANY, 'How to Use MouseCTRL', size=(150, 30))
-        self.nm4 = wx.TextCtrl(panel, -1, style=wx.TE_MULTILINE | wx.ALIGN_LEFT | wx.TE_NO_VSCROLL | wx.TE_READONLY,
-                               size=(500, 150))
+        self.nm4 = wx.TextCtrl(panel, -1, style=wx.TE_MULTILINE | wx.ALIGN_LEFT | wx.TE_NO_VSCROLL | wx.TE_READONLY, size=(500, 150))
         self.nm4.AppendText(text)
         nmbox.Add(st1, 0, wx.ALL, 5)
         nmbox.Add(self.newBtn, 0, wx.ALL | wx.CENTER, 5)
@@ -307,6 +306,7 @@ __________________________________
         hbox.Add(nm1Sizer, 0, wx.ALL, 5)
         self.newBtn.Bind(wx.EVT_BUTTON, self.runit)
         self.newBtn1.Bind(wx.EVT_BUTTON, self.runit2)
+        self.newBtn2.Bind(wx.EVT_BUTTON, self.runit3)
         panel.SetSizer(hbox)
         self.Centre()
         self.SetSize(wx.Size(450, 280))
@@ -326,6 +326,10 @@ __________________________________
         wx.Exit()
         import sys
         sys.exit(0)
+
+    def runit3(self, event):
+        import webbrowser
+        webbrowser.open("https://mousectrl.herokuapp.com/")
 
 
 def runmain():
